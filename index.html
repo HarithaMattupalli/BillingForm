@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Billing Form</title>
+  </head>
+  <body>
+
+    <fieldset class="fset1">
+      <legend>End of Month Billing</legend>
+      <form class="monthspace" action="index.html" method="post" id="form1">
+        <div class="month">
+
+          <div class="month1">
+            Last Run Date : <input type="text" name="lrd"><br>
+            Last Billing Period : <input type="text" name="project" style="margin-top:5%">
+          </div>
+          <div class="month2">
+            Project : <input type="text" name="project"><br>
+            Site : <input type="text" name="site" style="margin-top:5%"><br>
+            Billing Period : <input type="text" name="billingperiod" style="margin-top:5%"><br>
+          </div>
+          <div class="month2">
+            Start Time : <input type="text" name="starttime"><br>
+            End Time : <input type="text" name="endtime" style="margin-top:5%">
+          </div>
+        </div>
+        <div class="f1">
+        Status : <input type="text" name="status" style="width:40%;margin-top:2%"><br>
+        Billing done for <input type="text" name="done" style="margin-top:2%"> accounts <br>
+        </div>
+      </form>
+      <button type="submit" form="form1" value="Submit" style="margin-top:2%;margin-left:45%;padding:10px">Process</button>
+    </fieldset>
+
+    <fieldset class="fset2">
+      <legend>On Request Billing</legend>
+      <form class="requestspace" action="index.html" method="post" id=form2>
+        <div class="request">
+          Account No : <input type="text" name="accno" style="width:10%">
+          Name : <input type="text" name="name" style="width:40%"><br>
+          Reference No : <input type="text" name="ref1" style="width:8%"> / <input type="text" name="ref1" style="width:8%"> /
+          <input type="text" name="ref1" style="width:8%"> / <input type="text" name="ref1" style="width:8%;margin-right:5%;margin-top:1%">
+          Start Time : <input type="text" name="sttime"><br>
+          Last Billing Period : <input type="text" name="lastbill" style="margin-right:26%;margin-top:1%">
+          End Time : <input type="text" name="endtime"><br>
+          <div class="f1">
+          Billing Period From : <input type="text" name="from" style="margin-top:2%">  To <input type="text" name="to"><br>
+          Status : <input type="text" name="status" style="width:40%;margin-top:2%"><br>
+          </div>
+        </div>
+      </form>
+      <button type="submit" form="form1" value="Submit" style="margin-top:2%;margin-left:45%;padding:10px">Process</button>
+    </fieldset>
+
+  </body>
+</html>

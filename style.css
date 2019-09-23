@@ -1,0 +1,26 @@
+.month{
+  display: flex;
+  justify-content: space-around;
+}
+.monthspace{
+  margin-top: 2%;
+}
+.requestspace{
+  margin-top: 2%;
+}
+.fset2{
+  margin-top: 3%;
+}
+.f1{
+  margin-left: 30%;
+  margin-top: 3%;
+}
+legend{
+  color: red;
+}
+fieldset{
+  color:blue;
+}
+button{
+  background-color: #ccccb3;
+}
